@@ -1,0 +1,45 @@
+
+
+.header{
+    height: 100vh;
+    background: linear-gradient(to bottom right, rgb(71, 45, 45, 0.4),rgb(85, 57, 57, 0.6)), url('/public/img/pexels-chevanon-photography-324028.jpg');
+    width: 100%;
+    background-position: bottom;
+    background-size: cover;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    gap: 4rem;
+    text-align: center;
+}
+
+
+.header__h1{
+    font-size: 12rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+
+.header__h2{
+    font-size: 6rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+
+.header__btn{
+    font-size: 2rem;
+    background: #eee;
+    border: none;
+    padding: 1rem 4rem;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    transition: 0.2s;
+}
+
+.header__btn:hover{
+    background-color: hsl(0, 0%, 83%);
+    cursor: pointer
+    ;
+}
